@@ -36,7 +36,7 @@ apt-get update
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ 
-- Debian Multimedia installieren (v2):
+- Debian Multimedia installieren (incl. anlegen der Repo):
 ```
 echo "## Multimedia Repo" | sudo tee /etc/apt/sources.list.d/deb-multimedia.list
 echo "deb https://www.deb-multimedia.org bookworm main non-free" | sudo tee -a /etc/apt/sources.list.d/deb-multimedia.list
