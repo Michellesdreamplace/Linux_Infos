@@ -1,4 +1,4 @@
-<img src="https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_32x32/Debian.png" alt="Debian" />  
+![Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_32x32/Debian.png)
 # ℹ️ DEBIAN Infos
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
