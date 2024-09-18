@@ -4,7 +4,7 @@
 ### 🔗 meine persönliche Linksammlung:
 - [DistroWatch - News & Infos](https://distrowatch.com/)
 - [DEBIAN: download - daily-image amd64 netboot mini.iso](https://d-i.debian.org/daily-images/amd64/daily/netboot/mini.iso)
-- [DEBIAN: Offizielle Live-Installations-Images für die Stable-Veröffentlichung](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/)  
+- [DEBIAN: download - Offizielle Live-Installations-Images für die Stable-Veröffentlichung](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/)  
 - [DEBIAN: Paketsuche](https://packages.debian.org/de/)  
 - [DEBIAN: wiki - NVIDIA Proprietary Driver](https://wiki.debian.org/NvidiaGraphicsDrivers)  
 - [DEBIAN: howto - Debian auf btrfs, fein gewürzt mit Timeshift – ein Serviervorschlag von SaintofSinner](https://saintofsinner.de/debian-auf-btrfs-fein-gewuerzt-mit-timeshift-ein-serviervorschlag/)⠀ ⠀ *(für erfahrene Nutzer)* 
