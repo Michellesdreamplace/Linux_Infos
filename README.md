@@ -22,9 +22,12 @@ deb https://www.deb-multimedia.org bookworm-backports main non-free
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### ⚙️ diverse Shell-Befehle:
 - `sudo apt install -t bookworm-backports <package>`
-- 
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+- Debian Multimedia installieren:
 ```
 wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
 sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 apt-get update
 ```
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+ 
