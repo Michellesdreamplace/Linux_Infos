@@ -12,4 +12,4 @@ ________________________________________________________________________________
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 - [xfce](https://xfce.org/)
 - [Cinnamon](https://projects.linuxmint.com/cinnamon/)
-- [KDE](https://kde.org/de/)
+- [KDE Plasma](https://kde.org/de/)
