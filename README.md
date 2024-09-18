@@ -3,6 +3,7 @@
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 🔗 meine persönliche Linksammlung:
+- [The Linux Kernel Archives](https://www.kernel.org/)
 - [DistroWatch - News & Infos](https://distrowatch.com/)
 
 ______________________________________________________________________________________________________
