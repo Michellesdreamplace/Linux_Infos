@@ -11,20 +11,20 @@
 ______________________________________________________________________________________________________
 ### ⚙️ Eintragungen in der '/etc/apt/sources.list':
 ```
-deb https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware 
-deb-src https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware 
+deb https://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
+deb-src https://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
 
-deb https://deb.debian.org/debian/ bookworm-security main contrib non-free non-free-firmware 
-deb-src https://deb.debian.org/debian/ bookworm-security main contrib non-free non-free-firmware 
+deb https://deb.debian.org/debian/ bookworm-security main non-free-firmware contrib non-free
+deb-src https://deb.debian.org/debian/ bookworm-security main non-free-firmware contrib non-free
 
 # bookworm-updates, to get updates before a point release is made;
 # see https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports
-deb https://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware 
-deb-src https://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware 
+deb https://deb.debian.org/debian/ bookworm-updates main non-free-firmware contrib non-free
+deb-src https://deb.debian.org/debian/ bookworm-updates main non-free-firmware contrib non-free
 
 # bookworm-backports, previously on backports.debian.org
-deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware  
-deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware  
+deb http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
+deb-src http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### ⚙️ Eintragungen in der '/etc/apt/sources.list.d/deb-multimedia.list':
