@@ -1,4 +1,4 @@
-# ![Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_32x32/Debian.png) DEBIAN Infos
+# ![Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/Debian.png)⠀ ⠀DEBIAN Infos
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 🔗 meine persönliche Linksammlung zu Debian:
