@@ -69,8 +69,7 @@ sudo apt update -y
 sudo apt update
 sudo apt install nvidia-detect -y
 nvidia-detect
-sudo apt install nvidia-driver
-sudo apt install firmware-misc-nonfree
+sudo apt install nvidia-driver firmware-misc-nonfree
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
