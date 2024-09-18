@@ -8,10 +8,11 @@
 - [FONT: Clear Sans](https://www.fontsquirrel.com/fonts/clear-sans)  
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-### ⚙️ Eintragungen in der 'sources.list':
+### ⚙️ Eintragungen in der '/etc/apt/sources.list':
 ```
-#Backports
-deb http://deb.debian.org/debian bookworm-backports main
+# bookworm-backports, previously on backports.debian.org
+deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware  
+deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware  
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
