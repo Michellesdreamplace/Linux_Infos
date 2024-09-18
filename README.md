@@ -13,6 +13,10 @@
 # bookworm-backports, previously on backports.debian.org
 deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware  
 deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware  
+
+# multimedia repository
+deb https://www.deb-multimedia.org bookworm main non-free
+deb https://www.deb-multimedia.org bookworm-backports main
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
