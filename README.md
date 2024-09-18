@@ -7,7 +7,8 @@
 - [DEBIAN: howto - Debian auf btrfs, fein gewürzt mit Timeshift – ein Serviervorschlag von SaintofSinner](https://saintofsinner.de/debian-auf-btrfs-fein-gewuerzt-mit-timeshift-ein-serviervorschlag/)  
 - [FONT: Clear Sans](https://www.fontsquirrel.com/fonts/clear-sans)  
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+----------------------------------------------------------------------------------------------------
 ### ⚙️ Eintragungen in der '/etc/apt/sources.list':
 ```
 # bookworm-backports, previously on backports.debian.org
@@ -46,6 +47,6 @@ wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multi
 sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 sudo apt update -y
 ```
-
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
- 
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+----------------------------------------------------------------------------------------------------
