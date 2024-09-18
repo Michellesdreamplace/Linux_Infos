@@ -49,4 +49,17 @@ sudo apt update -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+ - Debian zusätzliche Software installieren:
+```
+sudo apt install timeshift thunderbird thunderbird-l10n-de keepassxc gparted transmission-gtk vlc pavucontrol geany gimp inkscape audacity filezilla leafpad ffmpeg default-jdk git wget nano vim htop neofetch screenfetch tasksel locate p7zip p7zip-full tar rar unrar unzip ufw gufw flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+sudo flatpak update -y
+sudo apt install flatpak gnome-software-plugin-flatpak -y
+sudo flatpak install flathub com.github.tchx84.Flatseal -y
+sudo flatpak install flathub com.mattjakeman.ExtensionManager -y
+sudo apt update -y
+```
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ______________________________________________________________________________________________________
