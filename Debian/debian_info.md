@@ -2,7 +2,7 @@
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 🔗 meine persönliche Linksammlung zu Debian:
-- [DEBIAN: Homepage](https://www.debian.org/)
+- [DEBIAN: Homepage & download](https://www.debian.org/)
 - [DEBIAN: download - daily-image amd64 netboot mini.iso](https://d-i.debian.org/daily-images/amd64/daily/netboot/mini.iso)
 - [DEBIAN: download - Offizielle Live-Installations-Images für die Stable-Veröffentlichung](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/)  
 - [DEBIAN: Paketsuche](https://packages.debian.org/de/)  
