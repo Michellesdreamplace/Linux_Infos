@@ -20,12 +20,12 @@ deb-src https://deb.debian.org/debian/ bookworm main non-free-firmware contrib n
 deb https://deb.debian.org/debian/ bookworm-security main non-free-firmware contrib non-free
 deb-src https://deb.debian.org/debian/ bookworm-security main non-free-firmware contrib non-free
 
-# bookworm-updates, to get updates before a point release is made;
-# see https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports
+# bookworm-updates, um Updates zu erhalten, bevor eine Zwischenveröffentlichung veröffentlicht wird;
+# siehe https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports
 deb https://deb.debian.org/debian/ bookworm-updates main non-free-firmware contrib non-free
 deb-src https://deb.debian.org/debian/ bookworm-updates main non-free-firmware contrib non-free
 
-# bookworm-backports, previously on backports.debian.org
+# bookworm-backports, zuvor auf backports.debian.org
 deb http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
 deb-src http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
 ```
