@@ -9,10 +9,10 @@
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### ⚙️ Eintragungen in der 'sources.list':
-```
+`
 #Backports
-deb http://deb.debian.org/debian bookworm-backports main```
-```
+deb http://deb.debian.org/debian bookworm-backports main
+`
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### ⚙️ diverse Shell-Befehle:
