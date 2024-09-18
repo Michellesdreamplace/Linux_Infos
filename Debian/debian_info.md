@@ -1,5 +1,4 @@
 # ![Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_32x32/Debian.png) DEBIAN Infos
-# ℹ️ DEBIAN Infos
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 🔗 meine persönliche Linksammlung zu Debian:
