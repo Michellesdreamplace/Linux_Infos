@@ -20,6 +20,7 @@ deb https://www.deb-multimedia.org bookworm-backports main non-free
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+----------------------------------------------------------------------------------------------------
 ### ⚙️ diverse Shell-Befehle:
  ⠀ ⠀ ⠀ ⠀ ⠀ 
 - Debian backport-Paket installieren:
