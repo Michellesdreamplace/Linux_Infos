@@ -50,7 +50,7 @@ ________________________________________________________________________________
  ⠀ ⠀ ⠀ ⠀ ⠀ 
 - Debian update & upgrade:
 ```
-sudo sudo apt update --fix-missing && apt install -f -y && apt update && apt upgrade -y && apt clean -y && apt autoclean -y && apt autoremove -y
+sudo apt update --fix-missing && apt install -f -y && apt update && apt upgrade -y && apt clean -y && apt autoclean -y && apt autoremove -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ 
