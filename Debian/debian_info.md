@@ -12,7 +12,7 @@
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
 ______________________________________________________________________________________________________
-### ⚙️ Eintragungen in der '/etc/apt/sources.list':
+### ⚙️ Eintragungen in der '/etc/apt/sources.list' der Debian-Stable-Version:
 ```
 deb https://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
 deb-src https://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
