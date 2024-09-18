@@ -64,4 +64,14 @@ sudo apt update -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+  - Debian NVIDIA-Treiber installieren:
+```
+sudo apt update
+sudo apt install nvidia-detect -y
+nvidia-detect
+sudo apt install nvidia-driver
+sudo apt install firmware-misc-nonfree
+```
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ______________________________________________________________________________________________________
