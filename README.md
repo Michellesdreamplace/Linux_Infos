@@ -22,7 +22,7 @@ deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free no
 deb https://www.deb-multimedia.org bookworm main non-free
 deb https://www.deb-multimedia.org bookworm-backports main non-free
 ```
-danach folfendes im Terminal:
+*danach noch folgendes im Terminal ausführen:*
 ```
 sudo apt install -y wget apt-transport-https
 wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
