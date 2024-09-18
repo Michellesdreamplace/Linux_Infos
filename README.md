@@ -14,10 +14,20 @@ ________________________________________________________________________________
 # bookworm-backports, previously on backports.debian.org
 deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware  
 deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware  
-
+```
+ ⠀ ⠀ ⠀ ⠀ ⠀ 
+### ⚙️ Eintragungen in der '/etc/apt/sources.list.d/deb-multimedia.list':
+```
 # multimedia repository
 deb https://www.deb-multimedia.org bookworm main non-free
 deb https://www.deb-multimedia.org bookworm-backports main non-free
+```
+danach folfendes im Terminal:
+```
+sudo apt install -y wget apt-transport-https
+wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
+sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
+sudo apt update -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
