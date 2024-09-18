@@ -21,7 +21,11 @@ deb https://www.deb-multimedia.org bookworm-backports main non-free
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### ⚙️ diverse Shell-Befehle:
-- `sudo apt install -t bookworm-backports <package>`
+ ⠀ ⠀ ⠀ ⠀ ⠀ 
+- Debian backport-Paket installieren:
+```
+sudo apt install -t bookworm-backports <package>
+```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ 
 - Debian Multimedia installieren:
