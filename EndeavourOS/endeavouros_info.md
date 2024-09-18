@@ -1,4 +1,4 @@
-# ℹ️ EndeavourOS Infos
+# ![EndeavourOS](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_32x32/EndeavourOS.png) EndeavourOS Infos
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 🔗 meine persönliche Linksammlung zu EndeavourOS:
