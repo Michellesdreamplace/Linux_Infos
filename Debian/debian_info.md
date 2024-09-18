@@ -78,7 +78,7 @@ sudo apt update -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-### ![nvidia](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_32x32/nvidia.png)  
+### ![nvidia](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_32x32/nvidia.png)  nv
   - Debian Grafikkarten Treiber NVIDIA installieren:
 ```
 sudo apt update
