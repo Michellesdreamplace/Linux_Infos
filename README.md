@@ -64,13 +64,20 @@ sudo apt update -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-  - Debian NVIDIA-Treiber installieren:
+  - Debian Grafikkarten Treiber NVIDIA installieren:
 ```
 sudo apt update
 sudo apt install nvidia-detect -y
 nvidia-detect
 sudo apt install nvidia-driver
 sudo apt install firmware-misc-nonfree
+```
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+   - Debian Grafikkarten Treiber AMD installieren:
+```
+sudo apt purge *nvidia*
+apt-get install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0 mesa-vulkan-drivers xserver-xorg-video-all
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
