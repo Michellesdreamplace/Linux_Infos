@@ -1,6 +1,7 @@
 # ![Linux](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/Tux.png)⠀ ⠀Linux Infos
 ### ℹ️ *viele Infos sind auch in den Unterverzeichnissen zu finden*
 - [Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/Debian/debian_info.md)
+- [Linux Mint](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/LinuxMint/linuxmint_info.md)
 - [EndeavourOS](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/EndeavourOS/endeavouros_info.md)
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
