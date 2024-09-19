@@ -73,7 +73,7 @@ sudo apt install -t bookworm-backports <package>
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ 
-- Debian Multimedia installieren (incl. anlegen der Repo):
+- Debian-Stable Multimedia installieren (incl. anlegen der Repo):
 ```
 echo "# multimedia repository" | sudo tee /etc/apt/sources.list.d/deb-multimedia.list
 echo "deb https://www.deb-multimedia.org bookworm main non-free" | sudo tee -a /etc/apt/sources.list.d/deb-multimedia.list
@@ -82,9 +82,22 @@ sudo apt install -y wget apt-transport-https
 wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
 sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 sudo apt update -y
+sudo apt upgrade -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+- Debian-SID Multimedia installieren (incl. anlegen der Repo):
+```
+echo "# multimedia repository" | sudo tee /etc/apt/sources.list.d/deb-multimedia.list
+echo "deb https://www.deb-multimedia.org sid main non-free" | sudo tee -a /etc/apt/sources.list.d/deb-multimedia.list
+sudo apt install -y wget apt-transport-https
+wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
+sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
+sudo apt update -y
+sudo apt upgrade -y
+```
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+ ⠀ ⠀ ⠀ ⠀ 
  - Debian zusätzliche Software installieren:
 ```
 sudo apt install timeshift thunderbird thunderbird-l10n-de keepassxc gparted transmission-gtk vlc pavucontrol geany gimp inkscape audacity filezilla leafpad ffmpeg default-jdk git wget nano vim htop neofetch screenfetch tasksel locate p7zip p7zip-full tar rar unrar unzip ufw gufw flatpak
