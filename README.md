@@ -5,7 +5,7 @@
 - [EndeavourOS](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/EndeavourOS/endeavouros_info.md)
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-### 🔗 meine persönliche Linksammlung:
+### 🔗 meine persönliche Linksammlung zu Linux Allgemein:
 - [The Linux Kernel Archives](https://www.kernel.org/)
 - [DistroWatch - News & Infos](https://distrowatch.com/)
 
