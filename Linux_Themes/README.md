@@ -1,6 +1,8 @@
 # meine persönliche Themes Sammlung:
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+- [Wallpaper Flare](https://www.wallpaperflare.com/)
+- 
 ______________________________________________________________________________________________________
 ### 🌅 SDDM Login Themes:
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
