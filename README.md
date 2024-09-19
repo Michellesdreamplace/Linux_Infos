@@ -3,6 +3,7 @@
 - [Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/Debian/debian_info.md)
 - [Linux Mint](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/LinuxMint/linuxmint_info.md)
 - [EndeavourOS](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/EndeavourOS/endeavouros_info.md)
+- [Themes & Wallpaper für veschiedene Distros](https://github.com/Michellesdreamplace/Linux_Infos/tree/main/Linux_Themes)
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 🔗 meine persönliche Linksammlung zu Linux Allgemein:
