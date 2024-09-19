@@ -1,4 +1,4 @@
-# ![LinuxMint](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/LinuxMint.png)⠀ ⠀Linux Mint Infos
+# ![](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/LinuxMint.png)⠀ ⠀Linux Mint Infos
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 🔗 meine persönliche Linksammlung zu Linux Mint:
