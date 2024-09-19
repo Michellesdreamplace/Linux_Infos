@@ -30,6 +30,12 @@ deb http://deb.debian.org/debian bookworm-backports main non-free-firmware contr
 deb-src http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
+### ⚙️ Eintragungen in der '/etc/apt/sources.list' der Debian-SID-Version:
+```
+deb http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware  
+deb-src http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware  
+```
+ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### ⚙️ Eintragungen in der '/etc/apt/sources.list.d/deb-multimedia.list':
 ```
 # multimedia repository
@@ -48,7 +54,7 @@ sudo apt update -y
 ______________________________________________________________________________________________________
 ### ⚙️ diverse Shell-Befehle:
  ⠀ ⠀ ⠀ ⠀ ⠀ 
-- Debian System auf deutsch umstellen:
+- Debian System auf [deutsch](https://wiki.debian.org/de/HowTo/Install/Deutsch) umstellen:
 ```
 sudo apt install task-german
 sudo dpkg-reconfigure locales
