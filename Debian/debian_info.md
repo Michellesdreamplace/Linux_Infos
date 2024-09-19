@@ -66,6 +66,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt clean -y && sudo apt autoclea
 ```
 sudo apt install -t bookworm-backports <package>
 ```
+`sudo apt install -t bookworm-backports libreoffice libreoffice-l10n-de libreoffice-help-de`
  ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ 
 - Debian-Stable Multimedia installieren (incl. anlegen der Repo):
