@@ -13,7 +13,6 @@
 ______________________________________________________________________________________________________
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 # Linux desktop environments:
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 - [xfce](https://xfce.org/)
 - [Cinnamon](https://projects.linuxmint.com/cinnamon/)
 - [KDE Plasma](https://kde.org/de/)
