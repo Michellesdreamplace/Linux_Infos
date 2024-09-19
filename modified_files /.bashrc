@@ -128,5 +128,4 @@ fi
 fi
 
 #neofetch
-#screenfetch
 LANG=C screenfetch
