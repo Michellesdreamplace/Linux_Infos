@@ -48,9 +48,16 @@ sudo apt update -y
 ______________________________________________________________________________________________________
 ### ⚙️ diverse Shell-Befehle:
  ⠀ ⠀ ⠀ ⠀ ⠀ 
+- Debian System auf deutsch umstellen:
+```
+sudo apt install task-german
+sudo dpkg-reconfigure locales
+```
+ ⠀ ⠀ ⠀ ⠀ ⠀ 
+ ⠀ ⠀ ⠀ ⠀ ⠀ 
 - Debian update & upgrade:
 ```
-sudo apt update --fix-missing && sudo apt install -f -y && sudo apt update && sudo apt upgrade -y && sudo apt clean -y && sudo apt autoclean -y && sudo apt autoremove -y
+sudo apt update && sudo apt upgrade -y && sudo apt clean -y && sudo apt autoclean -y && sudo apt autoremove -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ 
