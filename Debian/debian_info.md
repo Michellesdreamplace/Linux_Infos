@@ -1,4 +1,4 @@
-# ![Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/Debian.png)⠀ ⠀DEBIAN Infos
+# ![Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/Debian.png)⠀ ⠀Debian Stable Infos
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 🔗 meine persönliche Linksammlung zu Debian:
@@ -28,12 +28,6 @@ deb-src https://deb.debian.org/debian/ bookworm-updates main non-free-firmware c
 # bookworm-backports, zuvor auf backports.debian.org
 deb http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
 deb-src http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
-```
- ⠀ ⠀ ⠀ ⠀ ⠀ 
-### ⚙️ Eintragungen in der '/etc/apt/sources.list' der Debian-SID-Version:
-```
-deb http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware  
-deb-src http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware  
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### ⚙️ Eintragungen in der '/etc/apt/sources.list.d/deb-multimedia.list':
@@ -86,18 +80,6 @@ sudo apt upgrade -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-- Debian-SID Multimedia installieren (incl. anlegen der Repo):
-```
-echo "# multimedia repository" | sudo tee /etc/apt/sources.list.d/deb-multimedia.list
-echo "deb https://www.deb-multimedia.org sid main non-free" | sudo tee -a /etc/apt/sources.list.d/deb-multimedia.list
-sudo apt install -y wget apt-transport-https
-wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
-sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
-sudo apt update -y
-sudo apt upgrade -y
-```
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
- ⠀ ⠀ ⠀ ⠀ 
  - Debian zusätzliche Software installieren:
 ```
 sudo apt install timeshift thunderbird thunderbird-l10n-de keepassxc gparted transmission-gtk vlc pavucontrol geany gimp inkscape audacity filezilla ffmpeg default-jdk git wget nano vim htop neofetch screenfetch tasksel locate p7zip p7zip-full tar rar unrar unzip ufw gufw flatpak
@@ -128,3 +110,43 @@ sudo apt install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0 mesa-vulkan-
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ______________________________________________________________________________________________________
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+# ![Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/Debian.png)⠀ ⠀Debian SID Infos
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+______________________________________________________________________________________________________
+### ⚙️ Eintragungen in der '/etc/apt/sources.list' der Debian-SID-Version:
+```
+deb http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware  
+deb-src http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware  
+```
+ ⠀ ⠀ ⠀ ⠀ ⠀ 
+### ⚙️ Eintragungen in der '/etc/apt/sources.list.d/deb-multimedia.list':
+```
+# multimedia repository
+deb https://www.deb-multimedia.org bookworm main non-free
+deb https://www.deb-multimedia.org bookworm-backports main non-free
+```
+*danach noch folgendes im Terminal ausführen:*
+```
+sudo apt install -y wget apt-transport-https
+wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
+sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
+sudo apt update -y
+```
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+______________________________________________________________________________________________________
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+- Debian-SID Multimedia installieren (incl. anlegen der Repo):
+```
+echo "# multimedia repository" | sudo tee /etc/apt/sources.list.d/deb-multimedia.list
+echo "deb https://www.deb-multimedia.org sid main non-free" | sudo tee -a /etc/apt/sources.list.d/deb-multimedia.list
+sudo apt install -y wget apt-transport-https
+wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
+sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
+sudo apt update -y
+sudo apt upgrade -y
+```
