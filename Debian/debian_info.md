@@ -62,7 +62,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt clean -y && sudo apt autoclea
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ 
- - Debian backport-Pakete installieren:
+ - Debian backport-Pakete installieren⠀ (die '/etc/apt/sources.list' muss dafür angepasst sein):
 ```
 sudo apt install -t bookworm-backports libreoffice libreoffice-l10n-de libreoffice-help-de
 ```
