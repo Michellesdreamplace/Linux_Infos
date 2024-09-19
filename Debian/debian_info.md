@@ -42,6 +42,7 @@ sudo apt install -y wget apt-transport-https
 wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
 sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 sudo apt update -y
+sudo apt upgrade -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -115,7 +116,6 @@ ________________________________________________________________________________
 # ![Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/Debian.png)⠀ ⠀Debian SID Infos
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-______________________________________________________________________________________________________
 ### ⚙️ Eintragungen in der '/etc/apt/sources.list' der Debian-SID-Version:
 ```
 deb http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware  
@@ -125,8 +125,7 @@ deb-src http://deb.debian.org/debian/ sid main contrib non-free non-free-firmwar
 ### ⚙️ Eintragungen in der '/etc/apt/sources.list.d/deb-multimedia.list':
 ```
 # multimedia repository
-deb https://www.deb-multimedia.org bookworm main non-free
-deb https://www.deb-multimedia.org bookworm-backports main non-free
+deb https://www.deb-multimedia.org sid main non-free
 ```
 *danach noch folgendes im Terminal ausführen:*
 ```
@@ -134,6 +133,7 @@ sudo apt install -y wget apt-transport-https
 wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
 sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 sudo apt update -y
+sudo apt upgrade -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
