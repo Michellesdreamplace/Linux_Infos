@@ -113,7 +113,7 @@ sudo apt install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0 mesa-vulkan-
 ______________________________________________________________________________________________________
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-# ![Debian](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/Debian.png)⠀ ⠀Debian SID Infos
+# ![](https://github.com/Michellesdreamplace/Linux_Infos/blob/main/pix/icons_64x64/Debian.png)⠀ ⠀Debian SID Infos
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### ⚙️ Eintragungen in der '/etc/apt/sources.list' der Debian-SID-Version:
