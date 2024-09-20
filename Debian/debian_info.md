@@ -57,7 +57,7 @@ sudo dpkg-reconfigure locales
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ 
- - Die schnellsten 20 Spiegelserver für Debian *bookworm* finden.⠀ *(gewünschten dann in die '/etc/apt/sources.list' eintragen)*:
+ - Die schnellsten 20 Spiegelserver für Debian *bookworm* finden. [🔗](https://book.dpmb.org/debian-paketmanagement.chunked/ch03s06.html)⠀ *(gewünschten dann in die '/etc/apt/sources.list' eintragen)*:
 ```
 sudo apt install netselect-apt
 sudo netselect-apt -c germany -t 20 -a amd64 -n bookworm
