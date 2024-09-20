@@ -17,4 +17,5 @@ ________________________________________________________________________________
 # Linux desktop environments:
 - [xfce](https://xfce.org/)
 - [Cinnamon](https://projects.linuxmint.com/cinnamon/)
+- [Cosmic](https://system76.com/cosmic)
 - [KDE Plasma](https://kde.org/de/)
