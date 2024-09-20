@@ -66,7 +66,7 @@ sudo netselect-apt -c germany -t 20 -a amd64 -n stable
  ⠀ ⠀ ⠀ ⠀ ⠀ 
 - Debian update & upgrade:
 ```
-sudo apt update && sudo apt upgrade -y && sudo apt clean -y && sudo apt autoclean -y && sudo apt autoremove -y
+sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt clean -y && sudo apt autoclean -y && sudo apt autoremove -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ 
