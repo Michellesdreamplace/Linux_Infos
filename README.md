@@ -9,7 +9,7 @@
 ### 🔗 meine persönliche Linksammlung zu Linux Allgemein:
 - [The Linux Kernel Archives](https://www.kernel.org/)
 - [DistroWatch - News & Infos](https://distrowatch.com/)
-- [LinuxNews](https://linuxnews.de/)
+- [LinuxNews - News & Infos](https://linuxnews.de/)
 - [Linux.Assistant - Homepage & download](https://www.linux-assistant.org/)
 
 ______________________________________________________________________________________________________
