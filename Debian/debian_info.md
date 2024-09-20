@@ -57,6 +57,14 @@ sudo dpkg-reconfigure locales
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ 
+ - Die schnellsten 10 Spiegelserver für Debian finden:
+```
+sudo apt install netselect-apt
+sudo netselect-apt -c germany -t 10 -a amd64 -n stable
+```
+*aus dieser Liste dann den gewünschen Spiegelserver raussuchen (& prüfen) und in die '/etc/apt/sources.list' eintragen*
+ ⠀ ⠀ ⠀ ⠀ ⠀ 
+ ⠀ ⠀ ⠀ ⠀ ⠀ 
 - Debian update & upgrade:
 ```
 sudo apt update && sudo apt upgrade -y && sudo apt clean -y && sudo apt autoclean -y && sudo apt autoremove -y
