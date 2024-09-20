@@ -3,7 +3,7 @@
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 🔗 meine persönliche Linksammlung zu Linux Mint:
 - [Linux Mint: Homepage & download](https://www.linuxmint.com/)
-- [LMDE: download](https://www.linuxmint.com/download_lmde.php)
+- [Linux Mint Debian Edition (LMDE): download](https://www.linuxmint.com/download_lmde.php)⠀ *Eine Alternative zu Ubuntu :)*
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
 ______________________________________________________________________________________________________
