@@ -10,6 +10,7 @@
 - [The Linux Kernel Archives](https://www.kernel.org/)
 - [DistroWatch - News & Infos](https://distrowatch.com/)
 - [LinuxNews](https://linuxnews.de/)
+- [linux-assistant - Homepage & download](https://www.linux-assistant.org/)
 
 ______________________________________________________________________________________________________
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
