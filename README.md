@@ -19,3 +19,4 @@ ________________________________________________________________________________
 - [Cinnamon](https://projects.linuxmint.com/cinnamon/)
 - [KDE Plasma](https://kde.org/de/)
 - [Cosmic](https://system76.com/cosmic)
+- [GNOME](https://www.gnome.org/)
