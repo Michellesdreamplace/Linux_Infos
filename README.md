@@ -11,6 +11,7 @@
 - [DistroWatch - News & Infos](https://distrowatch.com/)
 - [LinuxNews - News & Infos](https://linuxnews.de/)
 - [Linux.Assistant - Homepage & download](https://www.linux-assistant.org/)
+- [Linux Guides Community Forum](https://forum.linuxguides.de/)
 
 ______________________________________________________________________________________________________
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
