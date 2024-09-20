@@ -31,22 +31,7 @@ deb http://deb.debian.org/debian bookworm-backports main non-free-firmware contr
 deb-src http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ 
-### ⚙️ Eintragungen in der '/etc/apt/sources.list.d/deb-multimedia.list':
-```
-# multimedia repository
-deb https://www.deb-multimedia.org bookworm main non-free
-deb https://www.deb-multimedia.org bookworm-backports main non-free
-```
-*danach noch folgendes im Terminal ausführen:*
-```
-sudo apt install -y wget apt-transport-https
-wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
-sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
-sudo apt update -y
-sudo apt upgrade -y
-```
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ______________________________________________________________________________________________________
 ### ⚙️ diverse Shell-Befehle:
  ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -76,19 +61,6 @@ sudo apt install -t bookworm-backports libreoffice libreoffice-l10n-de libreoffi
 ```
 ```
 sudo apt search -t bookworm-backports nvidia
-```
- ⠀ ⠀ ⠀ ⠀ ⠀ 
- ⠀ ⠀ ⠀ ⠀ ⠀ 
-- Debian-Stable Multimedia installieren (incl. anlegen der Repo):
-```
-echo "# multimedia repository" | sudo tee /etc/apt/sources.list.d/deb-multimedia.list
-echo "deb https://www.deb-multimedia.org bookworm main non-free" | sudo tee -a /etc/apt/sources.list.d/deb-multimedia.list
-echo "deb https://www.deb-multimedia.org bookworm-backports main non-free" | sudo tee -a /etc/apt/sources.list.d/deb-multimedia.list
-sudo apt install -y wget apt-transport-https
-wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
-sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
-sudo apt update -y
-sudo apt upgrade -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -121,6 +93,25 @@ sudo apt install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0 mesa-vulkan-
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+- Debian-Stable Multimedia installieren (incl. anlegen der Repo):
+```
+echo "# multimedia repository" | sudo tee /etc/apt/sources.list.d/deb-multimedia.list
+echo "deb https://www.deb-multimedia.org bookworm main non-free" | sudo tee -a /etc/apt/sources.list.d/deb-multimedia.list
+echo "deb https://www.deb-multimedia.org bookworm-backports main non-free" | sudo tee -a /etc/apt/sources.list.d/deb-multimedia.list
+sudo apt install -y wget apt-transport-https
+wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
+sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
+sudo apt update -y
+sudo apt upgrade -y
+```
+*folgendes sollte dann in der '/etc/apt/sources.list.d/deb-multimedia.list' stehen:*
+```
+# multimedia repository
+deb https://www.deb-multimedia.org bookworm main non-free
+deb https://www.deb-multimedia.org bookworm-backports main non-free
+```  
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀   
 ______________________________________________________________________________________________________
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -131,20 +122,6 @@ ________________________________________________________________________________
 ```
 deb http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware  
 deb-src http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware  
-```
- ⠀ ⠀ ⠀ ⠀ ⠀ 
-### ⚙️ Eintragungen in der '/etc/apt/sources.list.d/deb-multimedia.list':
-```
-# multimedia repository
-deb https://www.deb-multimedia.org sid main non-free
-```
-*danach noch folgendes im Terminal ausführen:*
-```
-sudo apt install -y wget apt-transport-https
-wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
-sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
-sudo apt update -y
-sudo apt upgrade -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -160,4 +137,9 @@ wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multi
 sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 sudo apt update -y
 sudo apt upgrade -y
+```
+*folgendes sollte dann in der '/etc/apt/sources.list.d/deb-multimedia.list' stehen:*
+```
+# multimedia repository
+deb https://www.deb-multimedia.org sid main non-free
 ```
