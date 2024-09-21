@@ -6,7 +6,8 @@
 - [DEBIAN: download - daily-image amd64 netboot mini.iso](https://d-i.debian.org/daily-images/amd64/daily/netboot/mini.iso)
 - [DEBIAN: download - Offizielle Live-Installations-Images für die Stable-Veröffentlichung](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/)
 - [FAI.me: Build your own installation ISO for Debian](https://fai-project.org/FAIme/)  
-- [DEBIAN: Paketsuche](https://packages.debian.org/de/)  
+- [DEBIAN: Paketsuche](https://packages.debian.org/de/)
+- [debianforum](https://debianforum.de/)
 - [DEBIAN: wiki - NVIDIA Proprietary Driver](https://wiki.debian.org/NvidiaGraphicsDrivers)  
 - [DEBIAN: howto - Debian auf btrfs, fein gewürzt mit Timeshift – ein Serviervorschlag von SaintofSinner](https://saintofsinner.de/debian-auf-btrfs-fein-gewuerzt-mit-timeshift-ein-serviervorschlag/)⠀ ⠀ *(für erfahrene Nutzer)* 
 - [FONT: Clear Sans](https://www.fontsquirrel.com/fonts/clear-sans)  
