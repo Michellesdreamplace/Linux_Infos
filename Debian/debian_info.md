@@ -8,7 +8,8 @@
 - [FAI.me: Build your own installation ISO for Debian](https://fai-project.org/FAIme/)  
 - [DEBIAN: Paketsuche](https://packages.debian.org/de/)
 - [debianforum](https://debianforum.de/)
-- [DEBIAN: wiki - NVIDIA Proprietary Driver](https://wiki.debian.org/NvidiaGraphicsDrivers)  
+- [DEBIAN: wiki - NVIDIA Proprietary Driver](https://wiki.debian.org/NvidiaGraphicsDrivers)
+- [DEBIAN: wiki - WLAN Einrichten](https://wiki.debianforum.de/WLAN_Einrichten)
 - [DEBIAN: howto - Debian auf btrfs, fein gewürzt mit Timeshift – ein Serviervorschlag von SaintofSinner](https://saintofsinner.de/debian-auf-btrfs-fein-gewuerzt-mit-timeshift-ein-serviervorschlag/)⠀ ⠀ *(für erfahrene Nutzer)* 
 - [FONT: Clear Sans](https://www.fontsquirrel.com/fonts/clear-sans)  
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
