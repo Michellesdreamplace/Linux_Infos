@@ -12,7 +12,11 @@
 - [DEBIAN: wiki - Unfreie Grafiktreiber für NVIDIA](https://wiki.debianforum.de/Unfreie_Grafiktreiber_f%C3%BCr_NVIDIA)
 - [DEBIAN: wiki - NVIDIA Proprietary Driver](https://wiki.debian.org/NvidiaGraphicsDrivers)
 - [DEBIAN: howto - Debian auf btrfs, fein gewürzt mit Timeshift – ein Serviervorschlag von SaintofSinner](https://saintofsinner.de/debian-auf-btrfs-fein-gewuerzt-mit-timeshift-ein-serviervorschlag/)⠀ ⠀ *(für erfahrene Nutzer)* 
-- [FONT: Clear Sans](https://www.fontsquirrel.com/fonts/clear-sans)  
+- [FONT: Clear Sans](https://www.fontsquirrel.com/fonts/clear-sans)
+- [FONT: Download-Seite für ttf-mscorefonts-installer]([https://www.fontsquirrel.com/fonts/clear-sans](https://packages.debian.org/de/sid/all/ttf-mscorefonts-installer/download))
+```
+sudo dpkg --install /PFAD/ZUR/PAKETDATEI/ttf-mscorefonts-installer_3.8.1_all.deb
+```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
 ______________________________________________________________________________________________________
