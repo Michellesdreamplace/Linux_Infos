@@ -16,6 +16,7 @@
 
 [FONT: Download-Seite für ttf-mscorefonts-installer](https://packages.debian.org/de/sid/all/ttf-mscorefonts-installer/download)
 ```
+sudo apt install cabextract -y
 sudo dpkg --install /home/USER/Downloads/ttf-mscorefonts-installer_3.8.1_all.deb
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
