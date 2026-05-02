@@ -31,3 +31,9 @@
   pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY KDE_SESSION_VERSION=5 KDE_FULL_SESSION=true dolphin
   ```
   
+- Hamburger-Menü
+  - Weitere
+    - Ansicht
+      - Als Administrator handeln
+
+(dieser Punkt kann auch von "Vervügbare Aktionen" in "Angezeigte Aktionen" verschoben werden)
