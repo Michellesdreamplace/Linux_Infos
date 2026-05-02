@@ -7,3 +7,16 @@
     /usr/bin/pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY thunar %f
     ```
   - Dateizuordnung: Alle auswählen
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+----------------------
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
