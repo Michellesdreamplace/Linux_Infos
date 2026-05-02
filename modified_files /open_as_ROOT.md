@@ -36,4 +36,4 @@
     - Ansicht
       - Als Administrator handeln
         
-        (dieser Punkt kann auch von "Vervügbare Aktionen" in "Angezeigte Aktionen" verschoben werden)
+        (dieser Punkt kann auch von "Verfügbare Aktionen" in "Angezeigte Aktionen" verschoben werden)
