@@ -24,5 +24,10 @@
 
 - Im Terminal folgenden Befehl ausführen:
   ```
+  sudo apt install kio-admin
+  ```
+  
+  ```
   pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY KDE_SESSION_VERSION=5 KDE_FULL_SESSION=true dolphin
   ```
+  
